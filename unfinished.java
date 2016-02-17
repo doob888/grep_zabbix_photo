@@ -42,7 +42,7 @@ public static String getImgFromUrl(String urlstr, String savenme) throws IOExcep
 		 return "error";
 	 }
 	 public static String login(){
-		 String s=getpost.sendPost("http://192.168.3.20/zabbix/api_jsonrpc.php","{\"jsonrpc\":\"2.0\",\"method\":\"user.login\",\"params\":{\"password\":\"zabbix\",\"user\":\"Admin\"},\"id\":1}");
+		 String s=getpost.sendPost("http://192.168.3.20/zabbix/api_jsonrpc.php","{\"jsonrpc\":\"2.0\",\"method\":\"user.login\",\"params\":{\"password\":\"aaaaa\",\"user\":\"aaaaa\"},\"id\":1}");
 		 JSONObject obj;
 		try {
 			obj = new JSONObject(s);
